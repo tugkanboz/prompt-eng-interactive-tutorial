@@ -1,49 +1,49 @@
-exercise_1_1_hint = """The grading function in this exercise is looking for an answer that contains the exact Arabic numerals "1", "2", and "3".
-You can often get Claude to do what you want simply by asking."""
+exercise_1_1_hint = """Bu alıştırmadaki puanlama fonksiyonu tam olarak "1", "2" ve "3" Arap rakamlarını içeren bir cevap arıyor.
+Claude'un istediğinizi yapmasını genellikle sadece isteyerek sağlayabilirsiniz."""
 
-exercise_1_2_hint = """The grading function in this exercise is looking for answers that contain "soo" or "giggles".
-There are many ways to solve this, just by asking!"""
+exercise_1_2_hint = """Bu alıştırmadaki puanlama fonksiyonu "soo" veya "giggles" içeren cevaplar arıyor.
+Bunu çözmenin birçok yolu var, sadece isteyin!"""
 
-exercise_2_1_hint ="""The grading function in this exercise is looking for any answer that includes the word "hola".
-Ask Claude to reply in Spanish like you would when speaking with a human. It's that simple!"""
+exercise_2_1_hint ="""Bu alıştırmadaki puanlama fonksiyonu "hola" kelimesini içeren herhangi bir cevap arıyor.
+Claude'dan bir insanla konuşur gibi İspanyolca cevap vermesini isteyin. Bu kadar basit!"""
 
-exercise_2_2_hint = """The grading function in this exercise is looking for EXACTLY "Michael Jordan".
-How would you ask another human to do this? Reply with no other words? Reply with only the name and nothing else? There are several ways to approach this answer."""
+exercise_2_2_hint = """Bu alıştırmadaki puanlama fonksiyonu TAM OLARAK "Michael Jordan" arıyor.
+Bunu başka bir insandan nasıl isterdiniz? Başka hiçbir kelime olmadan cevap vermesini? Sadece isim ve başka hiçbir şey olmadan cevap vermesini? Bu cevaba yaklaşmanın birkaç yolu var."""
 
-exercise_2_3_hint = """The grading function in this cell is looking for a response that is equal to or greater than 800 words.
-Because LLMs aren't great at counting words yet, you may have to overshoot your target."""
+exercise_2_3_hint = """Bu hücredeki puanlama fonksiyonu 800 kelimeye eşit veya daha fazla bir yanıt arıyor.
+LLM'ler henüz kelimeleri saymada çok iyi olmadığından, hedefinizi aşmanız gerekebilir."""
 
-exercise_3_1_hint = """The grading function in this exercise is looking for an answer that includes the words "incorrect" or "not correct".
-Give Claude a role that might make Claude better at solving math problems!"""
+exercise_3_1_hint = """Bu alıştırmadaki puanlama fonksiyonu "incorrect" veya "not correct" kelimelerini içeren bir cevap arıyor.
+Claude'a matematik problemlerini çözmede daha iyi olmasını sağlayacak bir rol verin!"""
 
-exercise_4_1_hint = """The grading function in this exercise is looking for a solution that includes the words "haiku" and "pig".
-Don't forget to include the exact phrase "{TOPIC}" wherever you want the topic to be substituted in. Changing the "TOPIC" variable value should make Claude write a haiku about a different topic."""
+exercise_4_1_hint = """Bu alıştırmadaki puanlama fonksiyonu "haiku" ve "pig" kelimelerini içeren bir çözüm arıyor.
+Konunun yerine geçmesini istediğiniz yere tam olarak "{TOPIC}" ifadesini eklemeyi unutmayın. "TOPIC" değişken değerini değiştirmek Claude'un farklı bir konu hakkında haiku yazmasını sağlamalıdır."""
 
-exercise_4_2_hint = """The grading function in this exercise is looking for a response that includes the word "brown".
-If you surround "{QUESTION}" in XML tags, how does that change Claude's response?"""
+exercise_4_2_hint = """Bu alıştırmadaki puanlama fonksiyonu "brown" kelimesini içeren bir yanıt arıyor.
+"{QUESTION}"ı XML etiketleriyle çevrelersen, bu Claude'un yanıtını nasıl değiştirir?"""
 
-exercise_4_3_hint = """The grading function in this exercise is looking for a response that includes the word "brown".
-Try removing one word or section of characters at a time, starting with the parts that make the least sense. Doing this one word at a time will also help you see just how much Claude can or can't parse and understand."""
+exercise_4_3_hint = """Bu alıştırmadaki puanlama fonksiyonu "brown" kelimesini içeren bir yanıt arıyor.
+En az mantıklı olan kısımlardan başlayarak, bir seferde bir kelime veya karakter bölümünü çıkarmayı deneyin. Bunu bir seferde bir kelime yaparak Claude'un ne kadar ayrıştırıp anlayabildiğini veya anlayamadığını görmenize de yardımcı olacaktır."""
 
-exercise_5_1_hint = """The grading function for this exercise is looking for a response that includes the word "Warrior".
-Write more words in Claude's voice to steer Claude to act the way you want it to. For instance, instead of "Stephen Curry is the best because," you could write "Stephen Curry is the best and here are three reasons why. 1:"""
+exercise_5_1_hint = """Bu alıştırmanın puanlama fonksiyonu "Warrior" kelimesini içeren bir yanıt arıyor.
+Claude'u istediğiniz şekilde davranmaya yönlendirmek için Claude'un sesiyle daha fazla kelime yazın. Örneğin, "Stephen Curry is the best because," yerine "Stephen Curry is the best and here are three reasons why. 1:" yazabilirsiniz."""
 
-exercise_5_2_hint = """The grading function looks for a response of over 5 lines in length that includes the words "cat" and "<haiku>".
-Start simple. Currently, the prompt asks Claude for one haiku. You can change that and ask for two (or even more). Then if you run into formatting issues, change your prompt to fix that after you've already gotten Claude to write more than one haiku."""
+exercise_5_2_hint = """Puanlama fonksiyonu "cat" ve "<haiku>" kelimelerini içeren 5 satırdan uzun bir yanıt arıyor.
+Basit başlayın. Şu anda prompt Claude'dan bir haiku istiyor. Bunu değiştirip iki (hatta daha fazla) isteyebilirsiniz. Sonra biçimlendirme sorunlarıyla karşılaşırsanız, Claude'un birden fazla haiku yazmasını sağladıktan sonra bunu düzeltmek için prompt'unuzu değiştirin."""
 
-exercise_5_3_hint = """The grading function in this exercise is looking for a response that contains the words "tail", "cat", and "<haiku>".
-It's helpful to break this exercise down to several steps.								
-1.	Modify the initial prompt template so that Claude writes two poems.							
-2.	Give Claude indicators as to what the poems will be about, but instead of writing in the subjects directly (e.g., dog, cat, etc.), replace those subjects with the keywords "{ANIMAL1}" and "{ANIMAL2}".							
-3.	Run the prompt and make sure that the full prompt with variable substitutions has all the words correctly substituted. If not, check to make sure your {bracket} tags are spelled correctly and formatted correctly with single moustache brackets."""
+exercise_5_3_hint = """Bu alıştırmadaki puanlama fonksiyonu "tail", "cat" ve "<haiku>" kelimelerini içeren bir yanıt arıyor.
+Bu alıştırmayı birkaç adıma bölmek faydalıdır.								
+1.	İlk prompt şablonunu Claude'un iki şiir yazması için değiştirin.							
+2.	Claude'a şiirlerin ne hakkında olacağına dair göstergeler verin, ancak konuları doğrudan yazmak yerine (örn. köpek, kedi, vb.), bu konuları "{ANIMAL1}" ve "{ANIMAL2}" anahtar kelimeleriyle değiştirin.							
+3.	Prompt'u çalıştırın ve değişken ikamelerinin olduğu tam prompt'ta tüm kelimelerin doğru şekilde ikame edildiğinden emin olun. Değilse, {parantez} etiketlerinizin doğru yazıldığından ve tek bıyık parantezleriyle doğru biçimlendirildiğinden emin olun."""
 
-exercise_6_1_hint = """The grading function in this exercise is looking for the correct categorization letter + the closing parentheses and the first letter of the name of the category, such as "C) B" or "B) B" etc.
-Let's take this exercise step by step:										
-1.	How will Claude know what categories you want to use? Tell it! Include the four categories you want directly in the prompt. Be sure to include the parenthetical letters as well for easy classification. Feel free to use XML tags to organize your prompt and make clear to Claude where the categories begin and end.									
-2.	Try to cut down on superfluous text so that Claude immediately answers with the classification and ONLY the classification. There are several ways to do this, from speaking for Claude (providing anything from the beginning of the sentence to a single open parenthesis so that Claude knows you want the parenthetical letter as the first part of the answer) to telling Claude that you want the classification and only the classification, skipping the preamble.
-Refer to Chapters 2 and 5 if you want a refresher on these techniques.							
-3.	Claude may still be incorrectly categorizing or not including the names of the categories when it answers. Fix this by telling Claude to include the full category name in its answer.)								
-4.	Be sure that you still have {email} somewhere in your prompt template so that we can properly substitute in emails for Claude to evaluate."""
+exercise_6_1_hint = """Bu alıştırmadaki puanlama fonksiyonu doğru kategorizasyon harfi + kapanış parantezi ve kategori adının ilk harfi arıyor, örneğin "C) B" veya "B) B" vb.
+Bu alıştırmayı adım adım ele alalım:										
+1.	Claude hangi kategorileri kullanmak istediğinizi nasıl bilecek? Söyleyin! Kullanmak istediğiniz dört kategoriyi doğrudan prompt'a dahil edin. Kolay sınıflandırma için parantez içindeki harfleri de eklediğinizden emin olun. Prompt'unuzu düzenlemek ve Claude'a kategorilerin nerede başlayıp bittiğini açık hale getirmek için XML etiketlerini kullanmaktan çekinmeyin.									
+2.	Claude'un hemen sınıflandırmayla ve SADECE sınıflandırmayla cevap vermesi için gereksiz metni azaltmaya çalışın. Bunu yapmanın birkaç yolu vardır: Claude adına konuşmaktan (cümlenin başından tek bir açık paranteze kadar herhangi bir şey sağlayarak Claude'un cevabın ilk kısmı olarak parantez içindeki harfi istediğinizi bilmesini sağlamak) Claude'a sadece sınıflandırmayı istediğinizi ve sadece sınıflandırmayı istediğinizi söyleyerek, giriş kısmını atlayarak.
+Bu tekniklerin tazelemesini istiyorsanız Bölüm 2 ve 5'e bakın.							
+3.	Claude hala yanlış kategorizasyon yapıyor veya cevap verirken kategori adlarını dahil etmiyor olabilir. Bunu Claude'a cevabında tam kategori adını dahil etmesini söyleyerek düzeltin.)								
+4.	Claude'un değerlendirmesi için e-postaları düzgün şekilde ikame edebilmemiz için prompt şablonunuzda hala {email} olduğundan emin olun."""
 
 exercise_6_1_solution = """
 USER TURN
@@ -62,13 +62,13 @@ ASSISTANT TURN
 (
 """
 
-exercise_6_2_hint = """The grading function in this exercise is looking for only the correct letter wrapped in <answer> tags, such as "<answer>B</answer>". The correct categorization letters are the same as in the above exercise.
-Sometimes the simplest way to go about this is to give Claude an example of how you want its output to look. Just don't forget to wrap your example in <example></example> tags! And don't forget that if you prefill Claude's response with anything, Claude won't actually output that as part of its response."""
+exercise_6_2_hint = """Bu alıştırmadaki puanlama fonksiyonu sadece <answer> etiketleriyle sarılmış doğru harfi arıyor, örneğin "<answer>B</answer>". Doğru kategorizasyon harfleri yukarıdaki alıştırmayla aynıdır.
+Bazen bunu yapmanın en basit yolu Claude'a çıktısının nasıl görünmesini istediğinize dair bir örnek vermektir. Sadece örneğinizi <example></example> etiketleriyle sarmalamayı unutmayın! Ve Claude'un yanıtını herhangi bir şeyle önceden doldurursanız, Claude bunu aslında yanıtının bir parçası olarak çıktı vermeyeceğini unutmayın."""
 
-exercise_7_1_hint = """You're going to have to write some example emails and classify them for Claude (with the exact formatting you want). There are multiple ways to do this. Here are some guidelines below.										
-1.	Try to have at least two example emails. Claude doesn't need an example for all categories, and the examples don't have to be long. It's more helpful to have examples for whatever you think the trickier categories are (which you were asked to think about at the bottom of Chapter 6 Exercise 1). XML tags will help you separate out your examples from the rest of your prompt, although it's unnecessary.									
-2.	Make sure your example answer formatting is exactly the format you want Claude to use, so Claude can emulate the format as well. This format should make it so that Claude's answer ends in the letter of the category. Wherever you put the {email} placeholder, make sure that it's formatted exactly like your example emails.									
-3.	Make sure you still have the categories listed within the prompt itself, otherwise Claude won't know what categories to reference, as well as {email} as a placeholder for substitution."""
+exercise_7_1_hint = """Claude için bazı örnek e-postalar yazmanız ve bunları sınıflandırmanız gerekecek (tam olarak istediğiniz biçimlendirmeyle). Bunu yapmanın birden fazla yolu vardır. Aşağıda bazı yönergeler bulunmaktadır.										
+1.	En az iki örnek e-posta yazmaya çalışın. Claude'un tüm kategoriler için örneğe ihtiyacı yoktur ve örneklerin uzun olması gerekmez. Daha zor olduğunu düşündüğünüz kategoriler için örneklere sahip olmak daha faydalıdır (Bölüm 6 Alıştırma 1'in sonunda bunları düşünmeniz istenmişti). XML etiketleri örneklerinizi prompt'unuzun geri kalanından ayırmanıza yardımcı olacaktır, ancak bu gerekli değildir.									
+2.	Örnek cevap biçimlendirmenizin tam olarak Claude'un kullanmasını istediğiniz biçim olduğundan emin olun, böylece Claude da biçimi taklit edebilir. Bu biçim Claude'un cevabının kategorinin harfiyle bitmesini sağlamalıdır. {email} yer tutucusunu nereye koyarsanız, tam olarak örnek e-postalarınız gibi biçimlendirildiğinden emin olun.									
+3.	Prompt'un kendisinde kategorilerin listelendiğinden ve ikame için {email} yer tutucusunun bulunduğundan emin olun, aksi takdirde Claude hangi kategorilere başvuracağını bilemez."""
 
 exercise_7_1_solution = """
 USER TURN
@@ -97,11 +97,11 @@ Here is the email for you to categorize: {email}
 ASSISTANT TURN
 The correct category is:
 """
-exercise_8_1_hint = """The grading function in this exercise is looking for a response that contains the phrase "I do not", "I don't", or "Unfortunately".
-What should Claude do if it doesn't know the answer?"""
+exercise_8_1_hint = """Bu alıştırmadaki puanlama fonksiyonu "I do not", "I don't" veya "Unfortunately" ifadelerini içeren bir yanıt arıyor.
+Claude cevabı bilmiyorsa ne yapmalı?"""
 
-exercise_8_2_hint = """The grading function in this exercise is looking for a response that contains the phrase "49-fold".
-Make Claude show its work and thought process first by extracting relevant quotes and seeing whether or not the quotes provide sufficient evidence. Refer back to the Chapter 8 Lesson if you want a refresher."""
+exercise_8_2_hint = """Bu alıştırmadaki puanlama fonksiyonu "49-fold" ifadesini içeren bir yanıt arıyor.
+Claude'un önce ilgili alıntıları çıkararak ve alıntıların yeterli kanıt sağlayıp sağlamadığını görerek çalışmasını ve düşünce sürecini göstermesini sağlayın. Tazeleme istiyorsanız Bölüm 8 Dersine geri dönün."""
 
 exercise_9_1_solution = """
 You are a master tax acountant. Your task is to answer user questions using any provided reference documentation.

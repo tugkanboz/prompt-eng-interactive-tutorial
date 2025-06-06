@@ -1,57 +1,57 @@
-# Welcome to Anthropic's Prompt Engineering Interactive Tutorial - Bedrock Edition
+# Anthropic'in Prompt Engineering İnteraktif Eğitimine Hoş Geldiniz - Bedrock Sürümü
 
-## Course introduction and goals
+## Kurs tanıtımı ve hedefler
 
-This course is intended to provide you with a comprehensive step-by-step understanding of how to engineer optimal prompts within Claude, using Bedrock.
+Bu kurs, Bedrock kullanarak Claude içinde optimal prompt'ları nasıl tasarlayacağınız konusunda kapsamlı ve adım adım bir anlayış sağlamak amacıyla hazırlanmıştır.
 
-**After completing this course, you will be able to**:
-- Master the basic structure of a good prompt 
-- Recognize common failure modes and learn the '80/20' techniques to address them
-- Understand Claude's strengths and weaknesses
-- Build strong prompts from scratch for common use cases
+**Bu kursu tamamladıktan sonra şunları yapabileceksiniz**:
+- İyi bir prompt'un temel yapısında ustalaşmak
+- Yaygın hata türlerini tanımak ve bunları ele almak için '80/20' tekniklerini öğrenmek
+- Claude'un güçlü ve zayıf yönlerini anlamak
+- Yaygın kullanım durumları için sıfırdan güçlü prompt'lar oluşturmak
 
-## Course structure and content
+## Kurs yapısı ve içeriği
 
-This course is structured to allow you many chances to practice writing and troubleshooting prompts yourself. The course is broken up into **9 chapters with accompanying exercises**, as well as an appendix of even more advanced methods. It is intended for you to **work through the course in chapter order**. 
+Bu kurs, prompt yazma ve sorun giderme konularında kendinizi geliştirmeniz için birçok pratik fırsatı sunacak şekilde yapılandırılmıştır. Kurs **9 bölüm ve beraberindeki alıştırmalar** ile daha da gelişmiş yöntemlerin yer aldığı bir ek bölümden oluşmaktadır. **Kursu bölüm sırasına göre takip etmeniz** önerilir.
 
-**Each lesson has an "Example Playground" area** at the bottom where you are free to experiment with the examples in the lesson and see for yourself how changing prompts can change Claude's responses. There is also an [answer key](https://docs.google.com/spreadsheets/d/1jIxjzUWG-6xBVIa2ay6yDpLyeuOh_hR_ZB75a47KX_E/edit?usp=sharing). While this answer key is structured for 1P API requests, the solutions are the same.
+**Her dersin altında bir "Örnek Playground alanı"** bulunmaktadır. Burada dersdeki örneklerle özgürce deneyim yapabilir ve prompt'ları değiştirmenin Claude'un yanıtlarını nasıl değiştirdiğini kendiniz görebilirsiniz. Ayrıca bir [cevap anahtarı](https://docs.google.com/spreadsheets/d/1jIxjzUWG-6xBVIa2ay6yDpLyeuOh_hR_ZB75a47KX_E/edit?usp=sharing) da mevcuttur. Bu cevap anahtarı 1P API istekleri için yapılandırılmış olsa da, çözümler aynıdır.
 
-Note: This tutorial uses our smallest, fastest, and cheapest model, Claude 3 Haiku. Anthropic has [two other models](https://docs.anthropic.com/claude/docs/models-overview), Claude 3 Sonnet and Claude 3 Opus, which are more intelligent than Haiku, with Opus being the most intelligent.
+Not: Bu eğitim, en küçük, en hızlı ve en uygun fiyatlı modelimiz olan Claude 3 Haiku'yu kullanmaktadır. Anthropic'in [iki başka modeli](https://docs.anthropic.com/claude/docs/models-overview) daha vardır: Claude 3 Sonnet ve Claude 3 Opus. Bunlar Haiku'dan daha zeki modellerdir ve Opus en zeki olanıdır.
 
-When you are ready to begin, go to `01_Basic Prompt Structure` to proceed.
+Başlamaya hazır olduğunuzda, devam etmek için `01_Basic Prompt Structure` bölümüne gidin.
 
-## Table of Contents
+## İçindekiler
 
-Each chapter consists of a lesson and a set of exercises.
+Her bölüm bir ders ve bir dizi alıştırmadan oluşmaktadır.
 
-### Beginner
-- **Chapter 1:** Basic Prompt Structure
+### Başlangıç
+- **Bölüm 1:** Temel Prompt Yapısı
 
-- **Chapter 2:** Being Clear and Direct  
+- **Bölüm 2:** Açık ve Doğrudan Olmak
 
-- **Chapter 3:** Assigning Roles
+- **Bölüm 3:** Rol Atama
 
-### Intermediate 
-- **Chapter 4:** Separating Data from Instructions
+### Orta Seviye
+- **Bölüm 4:** Veriyi Talimatlardan Ayırmak
 
-- **Chapter 5:** Formatting Output & Speaking for Claude
+- **Bölüm 5:** Çıktı Biçimlendirme ve Claude Adına Konuşmak
 
-- **Chapter 6:** Precognition (Thinking Step by Step)
+- **Bölüm 6:** Öngörü (Adım Adım Düşünmek)
 
-- **Chapter 7:** Using Examples
+- **Bölüm 7:** Örnek Kullanımı
 
-### Advanced
-- **Chapter 8:** Avoiding Hallucinations
+### İleri Seviye
+- **Bölüm 8:** Halüsinasyonlardan Kaçınmak
 
-- **Chapter 9:** Building Complex Prompts (Industry Use Cases)
-  - Complex Prompts from Scratch - Chatbot
-  - Complex Prompts for Legal Services
-  - **Exercise:** Complex Prompts for Financial Services
-  - **Exercise:** Complex Prompts for Coding
-  - Congratulations & Next Steps
+- **Bölüm 9:** Karmaşık Prompt'lar Oluşturmak (Endüstri Kullanım Durumları)
+  - Sıfırdan Karmaşık Prompt'lar - Chatbot
+  - Hukuk Hizmetleri için Karmaşık Prompt'lar
+  - **Alıştırma:** Finansal Hizmetler için Karmaşık Prompt'lar
+  - **Alıştırma:** Kodlama için Karmaşık Prompt'lar
+  - Tebrikler ve Sonraki Adımlar
 
-- **Appendix:** Beyond Standard Prompting
-  - Chaining Prompts
-  - Tool Use
-  - Empriical Performance Evaluations
-  - Search & Retrieval
+- **Ek:** Standart Prompting'in Ötesinde
+  - Prompt Zincirleme
+  - Tool Kullanımı
+  - Ampirik Performans Değerlendirmeleri
+  - Arama ve Geri Getirme

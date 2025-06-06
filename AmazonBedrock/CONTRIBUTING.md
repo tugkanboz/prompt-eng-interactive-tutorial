@@ -1,59 +1,58 @@
-# Contributing Guidelines
+# Katkı Sağlama Rehberi
 
-Thank you for your interest in contributing to our project. Whether it's a bug report, new feature, correction, or additional
-documentation, we greatly value feedback and contributions from our community.
+Projemize katkı sağlama konusundaki ilginiz için teşekkür ederiz. İster bir hata raporu, yeni özellik, düzeltme veya ek
+dokümantasyon olsun, topluluğumuzdan gelen geri bildirimleri ve katkıları büyük ölçüde değer veriyoruz.
 
-Please read through this document before submitting any issues or pull requests to ensure we have all the necessary
-information to effectively respond to your bug report or contribution.
-
-
-## Reporting Bugs/Feature Requests
-
-We welcome you to use the GitHub issue tracker to report bugs or suggest features.
-
-When filing an issue, please check existing open, or recently closed, issues to make sure somebody else hasn't already
-reported the issue. Please try to include as much information as you can. Details like these are incredibly useful:
-
-* A reproducible test case or series of steps
-* The version of our code being used
-* Any modifications you've made relevant to the bug
-* Anything unusual about your environment or deployment
+Hata raporunuza veya katkınıza etkili bir şekilde yanıt verebilmemiz için gerekli tüm bilgilere sahip olmamızı sağlamak amacıyla
+herhangi bir issue veya pull request göndermeden önce lütfen bu belgeyi okuyun.
 
 
-## Contributing via Pull Requests
-Contributions via pull requests are much appreciated. Before sending us a pull request, please ensure that:
+## Hata Bildirimi/Özellik İstekleri
 
-1. You are working against the latest source on the *main* branch.
-2. You check existing open, and recently merged, pull requests to make sure someone else hasn't addressed the problem already.
-3. You open an issue to discuss any significant work - we would hate for your time to be wasted.
+Hataları bildirmek veya özellik önermek için GitHub issue tracker'ını kullanmanızı memnuniyetle karşılıyoruz.
 
-To send us a pull request, please:
+Bir issue açarken, lütfen başka birinin aynı sorunu zaten bildirmediğinden emin olmak için mevcut açık veya yakın zamanda kapatılmış issue'ları kontrol edin. Lütfen mümkün olduğunca fazla bilgi eklemeye çalışın. Şu gibi detaylar inanılmaz derecede faydalıdır:
 
-1. Fork the repository.
-2. Modify the source; please focus on the specific change you are contributing. If you also reformat all the code, it will be hard for us to focus on your change.
-3. Ensure local tests pass.
-4. Commit to your fork using clear commit messages.
-5. Send us a pull request, answering any default questions in the pull request interface.
-6. Pay attention to any automated CI failures reported in the pull request, and stay involved in the conversation.
-
-GitHub provides additional document on [forking a repository](https://help.github.com/articles/fork-a-repo/) and
-[creating a pull request](https://help.github.com/articles/creating-a-pull-request/).
+* Tekrarlanabilir bir test durumu veya adım serisi
+* Kullanılan kodumuzun versiyonu
+* Hatayla ilgili yaptığınız herhangi bir değişiklik
+* Ortamınız veya deployment'ınızla ilgili olağandışı herhangi bir durum
 
 
-## Finding contributions to work on
-Looking at the existing issues is a great way to find something to contribute on. As our projects, by default, use the default GitHub issue labels (enhancement/bug/duplicate/help wanted/invalid/question/wontfix), looking at any 'help wanted' issues is a great place to start.
+## Pull Request'ler Aracılığıyla Katkı Sağlama
+Pull request'ler aracılığıyla yapılan katkılar çok takdir edilir. Bize bir pull request göndermeden önce, lütfen şunları sağlayın:
+
+1. *main* branch'indeki en son kaynak koda karşı çalışıyor olun.
+2. Başka birinin sorunu zaten ele almadığından emin olmak için mevcut açık ve yakın zamanda birleştirilmiş pull request'leri kontrol edin.
+3. Önemli herhangi bir çalışmayı tartışmak için bir issue açın - zamanınızın boşa gitmesini istemeyiz.
+
+Bize bir pull request göndermek için, lütfen:
+
+1. Repository'yi fork edin.
+2. Kaynak kodu değiştirin; lütfen katkıda bulunduğunuz belirli değişikliğe odaklanın. Aynı zamanda tüm kodu yeniden biçimlendirirseniz, değişikliğinize odaklanmamız zor olacaktır.
+3. Yerel testlerin geçtiğinden emin olun.
+4. Açık commit mesajları kullanarak fork'unuza commit edin.
+5. Pull request arayüzündeki varsayılan soruları yanıtlayarak bize bir pull request gönderin.
+6. Pull request'te bildirilen otomatik CI hatalarına dikkat edin ve konuşmada aktif kalın.
+
+GitHub, [repository fork etme](https://help.github.com/articles/fork-a-repo/) ve
+[pull request oluşturma](https://help.github.com/articles/creating-a-pull-request/) konularında ek belgeler sağlar.
 
 
-## Code of Conduct
-This project has adopted the [Amazon Open Source Code of Conduct](https://aws.github.io/code-of-conduct).
-For more information see the [Code of Conduct FAQ](https://aws.github.io/code-of-conduct-faq) or contact
-opensource-codeofconduct@amazon.com with any additional questions or comments.
+## Üzerinde çalışılacak katkıları bulma
+Mevcut issue'lara bakmak, katkıda bulunacak bir şey bulmanın harika bir yoludur. Projelerimiz varsayılan olarak standart GitHub issue etiketlerini (enhancement/bug/duplicate/help wanted/invalid/question/wontfix) kullandığından, herhangi bir 'help wanted' issue'larına bakmak başlamak için harika bir yerdir.
 
 
-## Security issue notifications
-If you discover a potential security issue in this project we ask that you notify AWS/Amazon Security via our [vulnerability reporting page](http://aws.amazon.com/security/vulnerability-reporting/). Please do **not** create a public github issue.
+## Davranış Kuralları
+Bu proje [Amazon Open Source Davranış Kuralları](https://aws.github.io/code-of-conduct)'nı benimsemiştir.
+Daha fazla bilgi için [Davranış Kuralları SSS](https://aws.github.io/code-of-conduct-faq)'ye bakın veya
+ek sorular veya yorumlar için opensource-codeofconduct@amazon.com ile iletişime geçin.
 
 
-## Licensing
+## Güvenlik sorunu bildirimleri
+Bu projede potansiyel bir güvenlik sorunu keşfederseniz, [güvenlik açığı bildirme sayfamız](http://aws.amazon.com/security/vulnerability-reporting/) aracılığıyla AWS/Amazon Security'yi bilgilendirmenizi rica ederiz. Lütfen genel bir github issue'su **oluşturmayın**.
 
-See the [LICENSE](LICENSE) file for our project's licensing. We will ask you to confirm the licensing of your contribution.
+
+## Lisanslama
+
+Projemizin lisanslaması için [LICENSE](LICENSE) dosyasına bakın. Katkınızın lisanslamasını onaylamanızı isteyeceğiz.
