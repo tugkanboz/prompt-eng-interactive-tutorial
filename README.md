@@ -10,6 +10,10 @@ Bu kurs, Claude içinde optimal prompt'ları nasıl tasarlayacağınız konusund
 - Claude'un güçlü ve zayıf yönlerini anlamak
 - Yaygın kullanım durumları için sıfırdan güçlü prompt'lar oluşturmak
 
+## Türkçe Çeviri Hakkında
+
+Bu eğitim materyalinin Türkçe çevirisi, **Cursor IDE** ortamında **Claude-4-Sonnet** modeli kullanılarak **thinking mode** (düşünme modu) ile gerçekleştirilmiştir. Bu yaklaşım, çeviri kalitesinin yüksek olmasını ve teknik terimlerin doğru bir şekilde aktarılmasını sağlamıştır.
+
 ## Kurs yapısı ve içeriği
 
 Bu kurs, prompt yazma ve sorun giderme konularında kendinizi geliştirmeniz için birçok pratik fırsatı sunacak şekilde yapılandırılmıştır. Kurs **9 bölüm ve beraberindeki alıştırmalar** ile daha da gelişmiş yöntemlerin yer aldığı bir ek bölümden oluşmaktadır. **Kursu bölüm sırasına göre takip etmeniz** önerilir.
